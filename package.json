@@ -1,0 +1,31 @@
+{
+  "name": "etbeatae",
+  "version": "1.16.0",
+  "description": "Various types for better typescripting",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/RashadStracke/etbeatae.git",
+  "keywords": [
+    "types",
+    "perferendis"
+  ],
+  "scripts": {
+    "prepublishOnly": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RashadStracke/etbeatae.git"
+  },
+  "author": "MeghanRatke",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "barrelsby": "^2.2.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "debitisnulla": "^1.0.0",
+    "nequesed": "^1.0.0",
+    "nontempora": "^1.0.0",
+    "quosinventore": "^1.0.0"
+  }
+}
